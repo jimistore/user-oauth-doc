@@ -19,7 +19,7 @@
 
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
-|from|机蜜回调URL|varchar(200)|Y|-|
+|from|回调URL|varchar(200)|Y|用户确认/取消授权后的回调地址|
 
  - 跳转示例：
 
@@ -35,7 +35,7 @@ URL?from=xxx
 ```
 |名称|含义|类型|备注|
 |----|:---|:---|--------|
-|openId|三方用户openId|varchar(50)|用户在第三方系统唯一标识|
+|openId|三方用户openId|varchar(50)|用户在第三方系统的唯一标识|
 
 ###3.2.获取三方用户详细信息
 此接口仅限白名单服务器访问
@@ -46,7 +46,7 @@ URL?from=xxx
 
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
-|openId|三方用户openId|varchar(50)|Y|-|
+|openId|openId|varchar(50)|Y|用户在第三方系统的唯一标识|
 
 
  - 参数示例：
@@ -61,17 +61,17 @@ URL?from=xxx
 
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
-|openId|三方用户openId|varchar(50)|Y|用户在第三方系统唯一标识|
-|phone|三方用户手机号|varchar(20)|Y|-|
-|nickName|三方用户昵称|varchar(40)|N|-|
-|headUrl|三方用户头像|varchar(40)|N|-|
-|sex|三方用户性别|varchar(2)|N|男/女|
-|birthday|三方用户出生年月|int|N|-|
-|country|三方用户收货地址-国|varchar(20)|N|-|
-|provice|三方用户收货地址-省|varchar(20)|N|-|
-|city|三方用户收货地址-市|varchar(20)|N|-|
-|regoin|三方用户收货地址-区县|varchar(20)|N|-|
-|address|三方用户收货地址-详细地址|varchar(100)|N|-|
+|openId|openId|varchar(50)|Y|用户在第三方系统的唯一标识|
+|phone|手机号|varchar(20)|Y|-|
+|nickName|昵称|varchar(40)|N|-|
+|headUrl|头像|varchar(40)|N|-|
+|sex|性别|varchar(2)|N|男/女|
+|birthday|出生年月|int|N|-|
+|country|收货地址-国|varchar(20)|N|-|
+|provice|收货地址-省|varchar(20)|N|-|
+|city|收货地址-市|varchar(20)|N|-|
+|regoin|收货地址-区县|varchar(20)|N|-|
+|address|收货地址-详细地址|varchar(100)|N|-|
 
 
 
