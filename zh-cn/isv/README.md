@@ -25,7 +25,7 @@
 
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
-|from|机蜜回调URL|varchar(200)|Y| |
+|from|机蜜回调URL|varchar(200)|Y|-|
 
  - 跳转示例：
 
@@ -51,7 +51,7 @@ URL?from=xxx
 
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
-|openId|三方用户openId|varchar(50)|Y| |
+|openId|三方用户openId|varchar(50)|Y|-|
 
 
  - 参数示例：
@@ -67,15 +67,15 @@ URL?from=xxx
 |名称|含义|类型|必填|备注|
 |----|:---|:---|:--:|--------|
 |openId|三方用户openId|varchar(50)|Y|用户在第三方系统唯一标识|
-|phone|三方用户手机号|varchar(20)|Y| |
-|nickName|三方用户昵称|varchar(40)|N| |
-|cardId|三方用户身份证号码|varchar(20)|N| |
-|cardName|三方用户身份证姓名|varchar(50)|N| |
-|country|三方用户收货地址-国|varchar(20)|N| |
-|provice|三方用户收货地址-省|varchar(20)|N| |
-|city|三方用户收货地址-市|varchar(20)|N| |
-|regoin|三方用户收货地址-区县|varchar(20)|N| |
-|address|三方用户收货地址-详细地址|varchar(100)|N| |
+|phone|三方用户手机号|varchar(20)|Y|-|
+|nickName|三方用户昵称|varchar(40)|N|-|
+|cardId|三方用户身份证号码|varchar(20)|N|-|
+|cardName|三方用户身份证姓名|varchar(50)|N|-|
+|country|三方用户收货地址-国|varchar(20)|N|-|
+|provice|三方用户收货地址-省|varchar(20)|N|-|
+|city|三方用户收货地址-市|varchar(20)|N|-|
+|regoin|三方用户收货地址-区县|varchar(20)|N|-|
+|address|三方用户收货地址-详细地址|varchar(100)|N|-|
 
 
 
