@@ -1,3 +1,3 @@
 
 * [English](en)
-* [简体中文](zh-cn/isv)
+* [简体中文](zh-cn)
