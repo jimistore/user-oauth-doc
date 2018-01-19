@@ -4,10 +4,11 @@
 ##1.时序图
 ![时序图](https://file.zpmgo.com/api/download/temp/N2NiYzMyOTUtODNkMy00OGQ2LTliNzctYmIwNjVhN2U3ZWY2LnBuZw==)
 
-##2.对接准备
- - 1.根据文档所示接口列表开发接口；
- - 2.准备测试环境进行联调；
- - 3.机蜜需提供生产环境服务器白名单给第三方；
+##2.对接流程
+ - 1.第三方系统提供接口列表所示接口；
+ - 2.第三方系统提供测试环境进行联调；
+ - 3.机蜜提供生产环境服务器白名单给第三方；
+ - 4.联调成功后发布上线。
 
 ##3.接口列表
 ###3.1.跳转第三方页面申请授权获取用户信息
@@ -64,7 +65,7 @@ URL?from=xxx
 |phone|三方用户手机号|varchar(20)|Y|-|
 |nickName|三方用户昵称|varchar(40)|N|-|
 |headUrl|三方用户头像|varchar(40)|N|-|
-|sex|三方用户性别|varchar(2)|N|男|女|
+|sex|三方用户性别|varchar(2)|N|男/女|
 |birthday|三方用户出生年月|int|N|-|
 |country|三方用户收货地址-国|varchar(20)|N|-|
 |provice|三方用户收货地址-省|varchar(20)|N|-|
